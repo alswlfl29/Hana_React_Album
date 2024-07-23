@@ -16,7 +16,7 @@ jobs:
           node-version: 18
       - name: 'install dependencies'
         working-directory: ./
-        run: yarn install
+        run: yarn
       - name: 'build'
         working-directory: ./
         run: yarn build

@@ -25,7 +25,7 @@ export const Header = () => {
             onClick={() => logout() && navigate('/')}
             className='btn-account'
           >
-            Sign Out
+            Sign Out!
           </Button>
         </div>
       )}
